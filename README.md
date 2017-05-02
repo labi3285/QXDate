@@ -1,8 +1,11 @@
 # QXDate
-##An easy use date handle collection.
+## An easy use date handle collection.
 
-###Use
+### Use
 ```swift
+        let today = Date()
+        let date = today.addingTimeInterval(1000000)
+
         // 2017年05月14日 00时49分22秒
         let chinse24 = QXDateFormats.chinse24.string(date)
         // 2017年05月14日 上午 12时49分22秒
